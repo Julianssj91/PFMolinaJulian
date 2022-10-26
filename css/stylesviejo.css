@@ -24,7 +24,7 @@ body {
 
 .header {
     height: 80vh;
-    background-image: url(../SITIO/assets/images/PORTADA1.jpg);
+    background-image: url(../img/PORTADA1.jpg);
     background-repeat: no-repeat;
     background-color: black;
 
@@ -167,7 +167,7 @@ footer {
     margin-top: 15%;
     height: 90vh;
     width: 100vw;
-    background-image: url(../SITIO/assets/images/IMAGENfooter2.jpg);
+    background-image: url(../img/IMAGENfooter2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -268,7 +268,7 @@ footer {
     margin-top: 28%;
     height: 90vh;
     width: 100vw;
-    background-image: url(../SITIO/assets/images/IMAGENfooter2.jpg);
+    background-image: url(../img/IMAGENfooter2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -551,7 +551,7 @@ footer {
     margin-top: 43%;
     height: 90vh;
     width: 100vw;
-    background-image: url(../SITIO/assets/images/IMAGENfooter2.jpg);
+    background-image: url(../img/IMAGENfooter2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -757,7 +757,7 @@ footer {
     margin-top: 5%;
     height: 90vh;
     width: 100vw;
-    background-image: url(../SITIO/assets/images/IMAGENfooter2.jpg);
+    background-image: url(../img/IMAGENfooter2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -874,7 +874,7 @@ textarea {
     margin-top: 5%;
     height: 90vh;
     width: 100vw;
-    background-image: url(../SITIO/assets/images/IMAGENfooter2.jpg);
+    background-image: url(../img/IMAGENfooter2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
