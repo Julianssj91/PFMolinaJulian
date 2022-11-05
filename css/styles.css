@@ -40,6 +40,7 @@ a {
 
 a:hover {
   color: red;
+  transition: 1.3s;
 }
 
 .button {
@@ -80,4 +81,26 @@ a:hover {
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.card-img-top { 
+  width: 100%; 
+  height: 25vw; 
+  object-fit: inherit; 
+}
+
+
+.tarjeta_chica {
+  background: rgba(0, 0, 0, 0);
+-webkit-backdrop-filter: blur(1px);
+backdrop-filter: blur(1px);
+border: none;
+}
+
+.tarjeta_grande{
+  background: rgba(255, 255, 255, 0.178);
+-webkit-backdrop-filter: blur(1px);
+backdrop-filter: blur(1px);
+border: 1px solid rgba(255,255,255,0.15);
+
 }
