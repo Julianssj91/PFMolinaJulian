@@ -5,104 +5,209 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/stylesviejo.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="../img/iconoweb.ico">
     <title>Roadrunner Bikes</title>
 </head>
 
 <body>
 
+    <header class="navbar navbar-expand-lg bg-dark border-bottom border-danger">
 
+        <div class="container-fluid">
 
+            <a class="navbar-brand" href="index.html"> <img src="../img/loguito.png" alt="Logo de la compañia"
+                    class="w-75">
+            </a>
 
-    <header class="header">
-        <h2 class="titulo">Roadrunner Bikes</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <nav class="navbar">
-            <ul class="navbar__list">
-                <li class="navbar__item"><a href="../index.html">Inicio</a></li>
-                <li class="navbar__item"><a href="nosotros.html">Nosotros</a></li>
-                <li class="navbar__item"><a href="unidades.html">Unidades</a></li>
-                <li class="navbar__item"><a href="galeria.html">Galeria</a></li>
-                <li class="navbar__item"><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+            <nav class="collapse navbar-collapse justify-content-end fs-4" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/unidades.html">Unidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
 
-        <div class="slogan">
-            <p class="slogan__viaje">El viaje que soñas</p>
-            <p class="slogan__realidad">Te ayudamos a hacerlo realidad</p>
+                </ul>
+            </nav>
         </div>
     </header>
 
+
+
     <main>
 
-        <div class="nosotros">
-            <h3 class="nosotros__titulo">Sobre Nosotros</h3>
-        </div>
-
-        <hr>
-
-        <div class="nosotros__contenedor">
-            <div class="nosotros__saludo">
 
 
-                <p class="nosotros__saludo__parrafo">Hola, mi nombre es Julian, ante todo, soy un motociclista como tú
-                    y, desde
-                    que tengo memoria, he tenido una pasión por las motocicletas. Decidí
-                    comenzar esta empresa porque no creo que haya una empresa de turismo
-                    con una mentalidad o un espíritu de crear grupos para rodar. Con
-                    Roadrunner Bikes una vez que has estado de viaje con nosotros eres uno de
-                    nosotros. Tenemos esa camaradería amigable que no encontrarás en
-                    ningún otro lugar. Cuando comencé la empresa, quería ofrecer la
-                    experiencia de conducción pura para los clientes, al incluir las motos y
-                    planificar las rutas paque solo tenga que ocuparse de disfrutar con amigos.
-                    Entonces, si quieres pasar el mejor momento de tu vida con la compañía de
-                    motociclistas más genial y feliz, ¡unite a nosotros!
-                    <br><br><br><br><br>
-                    ¡Buenas rutas!
-                </p>
-                <img class="foto__nosotros1" src="../img/imagensaludo.jpg" alt="Moto en ruta">
+        <section class="container mt-5 mb-5">
+
+            <div class="row">
+
+                <div id="carouselExampleFade" class="col-lg-6 order-lg-last mb-3 carousel slide carousel-fade"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1500">
+                            <img src="../img/SALUDO1.jpg" class="d-block w-100" alt="Motos en la ruta ">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <img src="../img/SALUDO2.jpg" class="d-block w-100"
+                                alt="Africa Twin en la montaña">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <img src="../img/SALUDO3.jpg" class="d-block w-100"
+                                alt="Duke Adventure en la sierra">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <img src="../img/SALUDO4.jpg" class="d-block w-100" alt="Amigos en la ruta">
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center">
+
+                    <h2 class="display-2 text-center text-lg-start fw-bold text-white">Sobre Nosotros</h2>
+
+                    <p class="text-center text-lg-start text-white fs-5">Hola, mi nombre es Julian, ante todo, soy un
+                        motociclista como tú y, desde
+                        que tengo memoria, he tenido una pasión por las motocicletas. Decidí
+                        comenzar esta empresa porque no creo que haya una empresa de turismo
+                        con una mentalidad o un espíritu de crear grupos para rodar. Con
+                        Roadrunner Bikes una vez que has estado de viaje con nosotros eres uno de
+                        nosotros. Tenemos esa camaradería amigable que no encontrarás en
+                        ningún otro lugar. Cuando comencé la empresa, quería ofrecer la
+                        experiencia de conducción pura para los clientes, al incluir las motos y
+                        planificar las rutas paque solo tenga que ocuparse de disfrutar con amigos.
+                        Entonces, si quieres pasar el mejor momento de tu vida con la compañía de
+                        motociclistas más genial y feliz, ¡unite a nosotros!
+                        ¡Buenas rutas!
+                    </p>
+                </div>
             </div>
+        </section>
 
-            <div class="nosotros__pasos">
+        <section class="container mt-5 mb-5">
+
+            <div class="row">
+
+                <div id="carouselExampleFade" class="col-lg-6  mb-3 carousel slide carousel-fade"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1500">
+                            <img src="../img/PLAN1.jpg" class="d-block w-100" alt="Motos en la ruta ">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <img src="../img/PLAN2.jpg" class="d-block w-100"
+                                alt="Africa Twin en la montaña">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <img src="../img/PLAN3.jpg" class="d-block w-100"
+                                alt="Duke Adventure en la sierra">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <img src="../img/PLAN4.jpg" class="d-block w-100" alt="Amigos en la ruta">
+                        </div>
+                        
+                    </div>
+
+                </div>
 
 
-                <p class="nosotros__pasos__parrafo">Planificar una ruta parece una cosa relativamente fácil, sobre
-                    todo hoy en
-                    día que contamos con Google Maps, pero hacerlo bien no es tan sencillo.
-                    Justamente esto es lo que da valor añadido a nuestro trabajo. El proceso de creación de una de
-                    nuestras rutas consta de los siguientes pasos: <br>
-                    1- Determinamos la zona geográfica. <br>
-                    2- Seleccionamos las mejores carreteras para viajar en moto. <br>
-                    3- Buscamos los posibles lugares en los que finalizar una etapa. <br>
-                    4- Definimos los puntos de interés turístico. <br>
-                    5- Buscamos los tramos ya incluidos en otros viajes. <br>
-                    6- Comenzamos a planificar la ruta básica. <br>
-                    7- Añadimos las posibles ampliaciones <br>
-                    8- Gestionamos cada etapa. <br>
-                    9- Preparamos los documentos finales para enviar al cliente. <br>
-                
+                <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center">
 
-                Para hacer un viaje excelente, disponer de la mejor ruta es algo esencial.
-                Esto es lo que en Roadrunner Bikes le ofrecemos</p>
-                <img class="foto__nosotros2" src="../img/PRUEBA-HONDA-NC750X-2021-6.jpg" alt="Moto en ruta">
+                    <h3 class="display-4 text-center text-lg-start fw-bold text-white">Planificacion de ruta</h3>
+
+                    <p class="text-center text-lg-start text-white fs-6">Planificar una ruta parece una cosa
+                        relativamente fácil, sobre todo hoy en día que contamos con Google Maps, pero hacerlo bien no es
+                        tan sencillo.
+                        Justamente esto es lo que da valor añadido a nuestro trabajo. El proceso de creación de una de
+                        nuestras rutas consta de los siguientes pasos para que la experiencia sea perfecta. En principio
+                        determinamos la zona geográfica, luego seleccionamos las mejores carreteras para viajar en moto.
+                        Buscamos los posibles lugares en los que finalizar una etapa y definimos los puntos de interés
+                        turístico. En oportunidades agregamos los tramos ya incluidos en otros viajes que tuvieron una
+                        valoracion positiva de nuestros clientes. Y Comenzamos a planificar la ruta básica añadiendo
+                        posibles ampliaciones en cada etapa y preparamos los documentos finales para enviar al cliente.
+                        Para hacer un viaje excelente, disponer de la mejor ruta es algo esencial.
+                        Esto es lo que en Roadrunner Bikes le ofrecemos
+                    </p>
+                </div>
             </div>
-        </div>
+        </section>
+
+
+
+
     </main>
 
-    <footer class="nosotros__footer">
-        <h5 class="titulo__footer">Roadrunner Bikes</h5>
-        <nav class="navbarfooter">
-            <ul class="navbarfooter__list">
-                <li class="navbarfooter__item"><a href="../index.html">Inicio</a></li>
-                <li class="navbarfooter__item"><a href="nosotros.html">Nosotros</a></li>
-                <li class="navbarfooter__item"><a href="unidades.html">Unidades</a></li>
-                <li class="navbarfooter__item"><a href="galeria.html">Galeria</a></li>
-                <li class="navbarfooter__item"><a href="contacto.html">Contacto</a></li>
+
+
+
+    <footer class="container-fluid bg-azul mt-5 bg-dark text-white ">
+        <div class="row px-5">
+            <div class="col col-md-2 pt-5">
+                <h3>Navega</h3>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-white">Inicio</a></li>
+                    <li class="nav-item mb-2"><a href="./pages/nosotros.html"
+                            class="nav-link p-0 text-white">Nosotros</a></li>
+                    <li class="nav-item mb-2"><a href="./pages/unidades.html"
+                            class="nav-link p-0 text-white">Unidades</a></li>
+                    <li class="nav-item mb-2"><a href="./pages/galeria.html" class="nav-link p-0 text-white">Galeria</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="./pages/contacto.html"
+                            class="nav-link p-0 text-white">Contacto</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col-md-5 offset-md-4 mb-3 pt-5">
+                <form>
+                    <h4 class="text-center">Suscribite a nuestro newsletter</h4>
+                    <p>Y asi recibi todas nuestras novedades para no perderte de nada!</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="email@example.com">
+                        <button class="btn btn-rojo" type="button">Suscribite</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div
+            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top border-danger text-bg-dark">
+            <p class="px-1 m-1">Roadrunner Bikes © 2022 Company. All rights reserved.</p>
+            <ul class=" d-flex gap-5 me-5 fs-3 justify-content-">
+                <a href="https://es-la.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="bi bi-github"></i></a>
             </ul>
-        </nav>
-        
+        </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 
 </body>
 
