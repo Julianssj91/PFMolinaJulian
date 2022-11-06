@@ -5,90 +5,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/stylesviejo.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="../img/iconoweb.ico">
     <title>Roadrunner Bikes</title>
 </head>
 
 <body>
 
+    <header class="navbar navbar-expand-lg bg-dark border-bottom border-danger">
 
+        <div class="container-fluid">
 
+            <a class="navbar-brand" href="index.html"> <img src="../img/loguito.png" alt="Logo de la compañia"
+                    class="w-75">
+                <h1 class="visually-hidden">Roadrunner Bikes</h1>
+            </a>
 
-    <header class="header">
-        <h2 class="titulo">Roadrunner Bikes</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <nav class="navbar">
-            <ul class="navbar__list">
-                <li class="navbar__item"><a href="../index.html">Inicio</a></li>
-                <li class="navbar__item"><a href="nosotros.html">Nosotros</a></li>
-                <li class="navbar__item"><a href="unidades.html">Unidades</a></li>
-                <li class="navbar__item"><a href="galeria.html">Galeria</a></li>
-                <li class="navbar__item"><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+            <nav class="collapse navbar-collapse justify-content-end fs-4" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/unidades.html">Unidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                    </li>
 
-        <div class="slogan">
-            <p class="slogan__viaje">El viaje que soñas</p>
-            <p class="slogan__realidad">Te ayudamos a hacerlo realidad</p>
+                </ul>
+            </nav>
         </div>
     </header>
 
+
+
     <main>
 
-        <div class="contacto">
-            <h3 class="contacto__titulo">Contacto</h3>
-        </div>
+        <h2 class="text-center text-white display-5 fw-semibold m-5">CONTACTO</h2>
 
-        <hr>
-
-        <form class="formulario" action="">
-
-            <input type="text" placeholder="Nombre y Apellido" class="campo"><br><br><br>
-
-            <input type="email" placeholder="Email" class="campo"><br><br><br>
-
-            <input type="tel" placeholder="Telefono" class="campo"><br><br><br>
-
-            <textarea name="" id="" cols="30" rows="10" placeholder="Comentarios" class="campo"></textarea><br><br>
-
-        </form>
-
-        <form class="formulario2" action="">
-            <div>
-                <p class="newsletter"> <input type="checkbox" class="checkbox"> Suscribite a nuestro Newsletter </p>
+        <div class="row m-5">
+            <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center">
+                <input type="text" class="form-control mb-3" id="exampleFormControlInput1"
+                    placeholder="Nombre y apellido">
+                <input type="email" class="form-control mb-3" id="exampleFormControlInput1"
+                    placeholder="nombre@ejemplo.com">
+                <input type="tel" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Telefono">
+                <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="5"
+                    placeholder="Comentarios"></textarea>
+                <div class="text-center">
+                    <a href="./pages/contacto.html"><button class="button fs-4 fw-bolder"><span>Contactanos!
+                            </span></button></a>
+                </div>
             </div>
 
-            <div class="boton">
-                <input type="submit" class="botonenviar" value="Enviar">
-            </div>
-        </form>
 
-        <div class="ubicacion">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51418.56170451397!2d8.553013674123077!3d47.36598425133896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a081a3f7131%3A0x616dac8153f4ea34!2sF%C3%A9d%C3%A9ration%20Internationale%20de%20Football%20Association!5e0!3m2!1ses-419!2sar!4v1664830019794!5m2!1ses-419!2sar"
-                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center">
+                <iframe class="text-center"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51418.56170451397!2d8.553013674123077!3d47.36598425133896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a081a3f7131%3A0x616dac8153f4ea34!2sF%C3%A9d%C3%A9ration%20Internationale%20de%20Football%20Association!5e0!3m2!1ses-419!2sar!4v1664830019794!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
 
 
         </div>
+
+
+
+
+        </div>
+
+
+
 
 
     </main>
 
-    <footer class="contacto__footer">
-        <h5 class="titulo__footer">Roadrunner Bikes</h5>
-        <nav class="navbarfooter">
-            <ul class="navbarfooter__list">
-                <li class="navbarfooter__item"><a href="../index.html">Inicio</a></li>
-                <li class="navbarfooter__item"><a href="nosotros.html">Nosotros</a></li>
-                <li class="navbarfooter__item"><a href="unidades.html">Unidades</a></li>
-                <li class="navbarfooter__item"><a href="galeria.html">Galeria</a></li>
-                <li class="navbarfooter__item"><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
 
+    <footer class="container-fluid bg-azul mt-5 bg-dark text-white ">
+        <div class="row px-5">
+            <div class="col col-md-2 pt-5">
+                <h3>Navega</h3>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 text-white">Inicio</a></li>
+                    <li class="nav-item mb-2"><a href="../pages/nosotros.html"
+                            class="nav-link p-0 text-white">Nosotros</a></li>
+                    <li class="nav-item mb-2"><a href="../pages/unidades.html"
+                            class="nav-link p-0 text-white">Unidades</a></li>
+                    <li class="nav-item mb-2"><a href="../pages/galeria.html"
+                            class="nav-link p-0 text-white">Galeria</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="../pages/contacto.html"
+                            class="nav-link p-0 text-white">Contacto</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col-md-5 offset-md-4 mb-3 pt-5">
+                <form>
+                    <h4 class="text-center">Suscribite a nuestro newsletter</h4>
+                    <p>Y asi recibi todas nuestras novedades para no perderte de nada!</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="email@example.com">
+                        <button class="btn btn-rojo" type="button">Suscribite</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div
+            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top border-danger text-bg-dark">
+            <p class="px-1 m-1">Roadrunner Bikes © 2022 Company. All rights reserved.</p>
+            <ul class=" d-flex gap-5 me-5 fs-3 justify-content-">
+                <a href="https://es-la.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="bi bi-github"></i></a>
+            </ul>
+        </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 
 </body>
 
