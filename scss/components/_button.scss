@@ -1,6 +1,6 @@
 .btn-rojo {
-    background-color: #000000;
-    color: $color-secundario(255, 255, 255);
+    background-color: $color-terciario;
+    color: $color-secundario;
     border: $color-primario 1px solid;
 
     &:hover {
