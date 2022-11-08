@@ -22,8 +22,8 @@ body {
 }
 
 .btn-rojo {
-  background-color: #000000;
-  color: white 255, 255, 255;
+  background-color: black;
+  color: white;
   border: red 1px solid;
 }
 .btn-rojo:hover {
