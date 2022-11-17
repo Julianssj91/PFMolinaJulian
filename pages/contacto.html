@@ -62,7 +62,7 @@
 
         <div class="row m-5">
             
-            <form class="col-lg-6 d-lg-flex flex-lg-column justify-content-center">
+            <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center">
 
                 <input type="text" class="form-control mb-3" id="inputdenombre"
                     placeholder="Nombre y apellido">
@@ -75,6 +75,8 @@
                 <textarea class="form-control mb-3" id="textodelcliente" rows="5"
                     placeholder="Comentarios"></textarea>
 
+
+                <!-- Dejar button comun, mas adelante con js le doy funcion sin perder el modal -->
 
                 <div class="text-center">
 
@@ -107,7 +109,7 @@
 
                 </div>
 
-            </form>
+            </div>
 
 
             <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center">
@@ -145,8 +147,9 @@
             </div>
 
 
+            
             <div class="col-md-5 offset-md-4 mb-3 pt-5">
-                <form>
+                <div>
                     <h4 class="text-center">Suscribite a nuestro newsletter</h4>
                     <p>Y asi recibi todas nuestras novedades para no perderte de nada!</p>
                     <div class="d-flex flex-column flex-sm-row w-100 gap-2">
@@ -154,7 +157,7 @@
                         <input id="newsletter1" type="text" class="form-control" placeholder="email@example.com">
                         <button class="btn btn-rojo" type="button">Suscribite</button>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
 
